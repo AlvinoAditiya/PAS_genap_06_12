@@ -7,10 +7,10 @@ import android.view.ViewGroup;
 
 import androidx.fragment.app.Fragment;
 
-public class SoccerFragment extends Fragment {
+public class ProfilFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_soccer, container, false);
+        View view = inflater.inflate(R.layout.fragment_profil, container, false);
         return view;
-}
+    }
 }
